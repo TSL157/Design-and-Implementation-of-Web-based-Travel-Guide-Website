@@ -1,0 +1,91 @@
+/* header 部分 start */
+.nav li:nth-child(6) a {
+	color: #7E4F45;
+	text-shadow: 2px 2px 2px #fff;
+}
+.nav li:nth-child(6)  a:hover {
+	color: #fff;
+	text-shadow: 2px 2px 2px #7E4F45;
+}
+/* header 部分 end */
+/* 主体部分 start*/
+.conten {
+	margin: 10px auto;
+	background-color: #fff;
+}
+
+
+/* 内容框架 */
+.party,.weather,.travel,.hotel,.travel_company,.message {
+	margin-bottom: 10px;
+	overflow: hidden;
+	background-color: rgba(20, 20, 20, .2);
+	position: relative;
+}
+/* 指引 */
+.party .n,.weather .n,.travel .n,.hotel .n {
+	display: inline-block;
+	letter-spacing: 2px;
+	font-size: 18px;
+	line-height: 540px;
+	padding-left: 150px;
+	position: absolute;
+	right: 64px;
+	bottom: 0;
+}
+.travel_company .n {
+	display: inline-block;
+	letter-spacing: 2px;
+	font-size: 18px;
+	line-height: 540px;
+	padding-left: 150px;
+	position: absolute;
+	right: 34px;
+	bottom: 0;
+}
+/* 图片 */
+.guide {
+	width: 960px;
+	height: 540px;
+}
+.party .guide {
+	background: url("../images/fun.png") no-repeat center ;
+}
+.weather .guide {
+	background: url("../images/weather.png") no-repeat center ;
+}
+.travel .guide {
+	background: url("../images/tr.png") no-repeat center ;
+}
+.hotel .guide {
+	background: url("../images/hotel.png") no-repeat center ;
+}
+.travel_company .guide {
+	background: url("../images/tr_g.png") no-repeat center ;
+}
+
+/* 用户留言 */
+.message fieldset {
+	margin: 20px;
+	width: 1146px;
+	height: 500px;
+	position: relative;
+}
+.message textarea {
+	width: 1120px;
+	height: 400px;
+	margin: 8px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	resize: none;
+	vertical-align: middle;
+	outline: none;
+}
+.message input {
+	width: 50px;
+	height: 25px;
+	position: absolute;
+	bottom: 18px;
+	left: 20px;
+}

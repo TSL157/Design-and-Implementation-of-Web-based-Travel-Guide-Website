@@ -1,0 +1,57 @@
+/* header 部分 start */
+.nav li:nth-child(5) a {
+	color: #7E4F45;
+	text-shadow: 2px 2px 2px #fff;
+}
+.nav li:nth-child(5)  a:hover {
+	color: #fff;
+	text-shadow: 2px 2px 2px #7E4F45;
+}
+/* header 部分 end */
+/* 主体部分 start*/
+.conten {
+	margin: 10px auto;
+	background-color: #fff;
+}
+
+
+
+.text1,.ecology,.culture,.technology,.travel {
+	padding: 0 15px;
+	margin: 10px auto;
+	overflow: hidden;
+	background-color: rgba(20, 20, 20, .2);
+}
+.text1 p,.ecology p,.culture p,.technology p,.travel p {
+	text-indent: 2em;
+	letter-spacing: 2px;
+	font-size: 14px;
+	line-height: 25px;
+	margin: 10px auto;
+}
+.ecology .n,.culture .n,.technology .n,.travel .n {
+	text-align: center;
+	color: #7E4F45;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.ecology .raft {
+	margin-top: 15px;
+	height: 426px;
+	background: url("../images/raft.png") no-repeat center;
+}
+.culture .style {
+	margin-top: 15px;
+	height: 426px;
+	background: url("../images/style.png") no-repeat center;
+}
+.technology .chiyou {
+	margin-top: 15px;
+	height: 480px;
+	background: url("../images/chiyou.png") no-repeat center;
+}
+.travel .wujiang {
+	margin-top: 15px;
+	height: 360px;
+	background: url("../images/wujiang.png") no-repeat center;
+}

@@ -1,0 +1,167 @@
+/* header 部分 start */
+.nav li:nth-child(3) a {
+	color: #7E4F45;
+	text-shadow: 2px 2px 2px #fff;
+}
+.nav li:nth-child(3)  a:hover {
+	color: #fff;
+	text-shadow: 2px 2px 2px #7E4F45;
+}
+/* header 部分 end */
+/* 主体部分 start*/
+.conten {
+	margin: 10px auto;
+	background-color: #fff;
+}
+
+/* 内容框架 */
+.introduction,
+.crispy,
+.c_b_f,
+.sanxiang,
+.chicken,
+.soba,
+.meat,
+.papers,
+.conclusion {
+	padding: 0 15px;
+	margin: 10px auto;
+	overflow: hidden;
+	background-color: rgba(20, 20, 20, .2);
+}
+/* 内容 */
+.introduction p,
+.crispy p,
+.c_b_f p,
+.sanxiang p,
+.chicken p,
+.soba p,
+.meat p,
+.papers p {
+	text-indent: 2em;
+	letter-spacing: 2px;
+	font-size: 14px;
+	line-height: 25px;
+	margin: 10px auto;
+}
+/* 诗句 */
+.poetry {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.crispy .poetry p {
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 10px;
+}
+/* 标题 */
+.crispy h3,
+.c_b_f h3,
+.sanxiang h3,
+.chicken h3,
+.soba h3,
+.meat h3,
+.papers h3 {
+	font-size: 22px;
+	line-height: 50px;
+	color: #7E4F45;
+	text-align: center;
+}
+/* 图表 */
+.graph {
+	height: 760px;
+}
+.graph ul li {
+	width: 550px;
+	height: 340px;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.graph ul li:nth-child(2n) {
+	margin-right: 0;
+	float: right;
+}
+/* 鸡豆花图 */
+.c_b_f .d1 {
+	height: 494px;
+	background: url("../images/d1.png") no-repeat center;
+	padding-top: 20px;
+}
+.c_b_f .d2 {
+	height: 372px;
+	background: url("../images/d2.png") no-repeat center;
+}
+.c_b_f .d3 {
+	height: 440px;
+	background: url("../images/d3.png") no-repeat center;
+}
+/* 美食导语 */
+.c_b_f .sentence p,
+.sanxiang .sentence p,
+.chicken .sentence p,
+.soba .sentence p,
+.meat .sentence p,
+.papers .sentence p {
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 8px;
+}
+/* 饼图片 */
+.crispy .picture {
+	height: 540px;
+	background: url("../images/crispy.png") no-repeat center;
+}
+/* 三香图 */
+.sanxiang .s1 {
+	height: 683px;
+	background: url("../images/s1.png") no-repeat center;
+	padding-top: 20px;
+}
+.sanxiang .s2 {
+	height: 683px;
+	background: url("../images/s2.png") no-repeat center;
+}
+.sanxiang .s3 {
+	height: 683px;
+	background: url("../images/s3.png") no-repeat center;
+}
+/* 大脚菌炖汤图 */
+.chicken .j {
+	height: 427px;
+	background: url("../images/j.png") no-repeat center;
+	padding-top: 20px;
+}
+/* 彭水荞面豆花 */
+.soba  .q {
+	height: 480px;
+	background: url("../images/q.png") no-repeat center;
+	padding-top: 20px;
+}
+/* 苗家酸鮓肉图 */
+.meat .m1 {
+	height: 794px;
+	background: url("../images/m1.png") no-repeat center;
+	padding-top: 20px;
+}
+.meat .m2 {
+	height: 794px;
+	background: url("../images/m2.png") no-repeat center/auto 794px;
+	padding-top: 20px;
+}
+/* 嘟卷子 */
+.papers .p {
+	height: 720px;
+	background: url("../images/p.png") no-repeat center/auto 794px;
+	padding-top: 20px;
+}
+/* 结语 */
+.conclusion p {
+	text-indent: 2em;
+	letter-spacing: 2px;
+	font-size: 16px;
+	line-height: 25px;
+	margin: 10px auto;
+	color: #7E4F45;
+}

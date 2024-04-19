@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>注册页</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="css/regist.css">
+		<script src="js/regist.js"></script>
+	</head>
+	
+	<body>
+		<div id="loginDiv">
+		    <form action="#" id="form">
+		        <h1 style="text-align: center;color: aliceblue;">立即注册</h1>
+				<p>用户名:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" id="user-name" value="" /><label for="user-name"></label></p>
+				
+				<p>密&nbsp;&nbsp;&nbsp;码:&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="pass" id="password"  /><label for="password"></label></p>
+				
+				<p>确定密码:<input type="password" name="repass" id="repassword" value="" /><label for="repassword"></label></p>
+				
+				<p>邮&nbsp;&nbsp;&nbsp;箱:&nbsp;&nbsp;&nbsp;&nbsp;<input id="email" type="text" ><label id="name_trip"></label></p>
+				
+				<p>生&nbsp;&nbsp;&nbsp;日:&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" name="" value="" /></p>
+				
+				<p>所在地:&nbsp;&nbsp;&nbsp;
+					<select id="nativeplace">
+						<option value="zhejiang">重庆</option>
+						<option value="fujian">福建</option>
+						<option value="anhui">安徽</option>
+						<option value="sichuan">四川</option>
+					</select>
+				</p>
+				
+		        <p>手机号:&nbsp;&nbsp;&nbsp;&nbsp;<input id="tel" type="tel" maxlength="11"><label id="name_trip"></label></p>
+		
+		        <p>验证码:&nbsp;&nbsp;&nbsp;&nbsp;<input id="capt_cha" name="captcha" type="text" maxlength="6"><label id="text_trip"></label></p>
+		
+		        <div style="text-align: center;margin-top: 30px;">
+		            <input type="submit" class="button" value="注册" onclick="check()" >
+		            <input type="button" class="button" onclick='location.href=("log in.html")' value="登录">
+		        </div>
+		    </form>
+		</div>
+	</body>
+</html>

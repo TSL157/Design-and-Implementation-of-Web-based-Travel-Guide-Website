@@ -1,0 +1,92 @@
+/* header 部分 start */
+.nav li:nth-child(4) a {
+	color: #7E4F45;
+	text-shadow: 2px 2px 2px #fff;
+}
+.nav li:nth-child(4)  a:hover {
+	color: #fff;
+	text-shadow: 2px 2px 2px #7E4F45;
+}
+/* header 部分 end */
+/* 主体部分 start*/
+.conten {
+	margin: 10px auto;
+	background-color: #fff;
+}
+
+
+/* 内容框架 */
+.ayi_river,.jiuli_city,.mountain,.fishing,.village,.zhoujiazhai,.galler,.anzi,.long,.town {
+	padding: 0 15px;
+	margin: 10px auto;
+	overflow: hidden;
+	background-color: rgba(20, 20, 20, .2);
+}
+/* 内容题目 */
+.ayi_river h3,.jiuli_city h3,.mountain h3,.fishing h3,.village h3,.zhoujiazhai h3,.galler h3,.anzi h3,.long h3,.town h3{
+	padding-top: 10px;
+	font-size: 22px;
+	line-height: 50px;
+	color: #7E4F45;
+	text-align: center;
+}
+/* 景点导语 */
+.ayi_river .introduction p,.jiuli_city .introduction p,.mountain .introduction p,.fishing .introduction p,.village .introduction p,.zhoujiazhai .introduction p,.galler .introduction p {
+	color: green;
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 8px;
+}
+/* 内容 */
+.ayi_river p,.jiuli_city p,.mountain p,.fishing p,.village p,.zhoujiazhai p,.galler p,.anzi p,.long p,.town p {
+	text-indent: 2em;
+	letter-spacing: 2px;
+	font-size: 14px;
+	line-height: 25px;
+	margin: 10px auto;
+}
+/* 图片 */
+.figure {
+	height: 540px;
+	padding: 10px;
+}
+/* 阿依河图片 */
+.ayi_river .figure{
+	background: url("../images/a1.png") no-repeat center;
+}
+/* 蚩尤九黎城图片 */
+.jiuli_city .figure {
+	background: url("../images/a2.png") no-repeat center;
+}
+/* 摩围山图片 */
+.mountain .figure {
+	background: url("../images/a3.png") no-repeat center;
+}
+/* 泉水渔都景区图片 */
+.fishing .figure {
+	background: url("../images/a4.png") no-repeat center;
+}
+/* 罗家坨苗寨图片 */
+.village .figure {
+	background: url("../images/a5.png") no-repeat center;
+}
+/* 周家寨图片 */
+.zhoujiazhai .figure {
+	background: url("../images/a6.png") no-repeat center;
+}
+/* 彭水乌江画廊图片 */
+.galler .figure {
+	background: url("../images/a7.png") no-repeat center;
+}
+/* 鞍子苗寨图片 */
+.anzi .figure {
+	background: url("../images/a8.png") no-repeat center;
+}
+/* 重庆彭水龙门峡图片 */
+.long .figure {
+	background: url("../images/a9.png") no-repeat center;
+}
+/* 郁山古镇 */
+.town .figure {
+	background: url("../images/a10.png") no-repeat center;
+}

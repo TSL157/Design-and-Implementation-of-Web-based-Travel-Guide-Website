@@ -1,0 +1,169 @@
+.w {
+	width: 1190px; /* 版心 */
+	margin: 0 auto;
+}
+.k {
+	width: 1519px;
+	margin: 0 auto;
+}
+.fl { /* 浮动公共类 */
+	float: left;
+}
+.fr {
+	float: right;
+}
+a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+}
+a:hover {
+	color: #7E4F45;
+}
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {
+	margin: 0;
+	padding: 0;
+}
+input,button {
+	border: 0;
+	outline: none; /* 取消轮廓边框 */
+}
+ul {
+	list-style: none;
+}
+.fl0 {
+	color: #7E4F45!important;
+}
+/* 页面背景颜色 */
+body {
+	background-color: #fff;
+}
+@font-face { /* 声明字体 */
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?r5tos9');
+  src:  url('../fonts/icomoon.eot?r5tos9#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?r5tos9') format('truetype'),
+    url('../fonts/icomoon.woff?r5tos9') format('woff'),
+    url('../fonts/icomoon.svg?r5tos9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table; /* 触发BFC防止外边距合并 */
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+.top {
+	font-family: "icomoon";
+	font-style: normal;
+	display: block;
+	width: 30px;
+	line-height: 50px;
+	font-size: 26px;
+	text-align: center;
+	color: rgba(0, 0, 0, .4);
+	background-color: rgba(230, 230, 230, .2);
+	border-radius: 5px;
+	position: fixed;
+	bottom: 28px;
+	right: 28px;
+}
+/* header 部分 start */
+/* logo */
+header {
+	display: block;
+	height: 50px;
+	padding: 0 auto;
+	background-color: rgba(0, 0, 0, .2);
+	overflow: hidden;
+}
+.logo a {
+	display:inline-block;
+	width: 200px;
+	height: 50px;
+	background:url("../images/Logo1.png") no-repeat center/55%;
+}
+/* 导航栏 */
+.nav ul {
+	margin-left: 150px;
+	width: 900px;
+	height: 50px;
+}
+.nav li {
+	display: inline-block;
+	margin-left: 50px;
+}
+.nav a {
+	display: block;
+	font-size: 14px;
+	line-height: 50px;
+	letter-spacing: 2px;
+}
+.nav a:hover {
+	text-shadow: 2px 2px 2px #fff;
+}
+/* 用户信息 */
+.user {
+	float: left;
+	margin-left: 74px;
+	height: 50px;
+	margin-right: 40px;
+}
+.user a {
+	display: inline-block;
+	line-height: 50px;
+	padding:  0 15px;
+	letter-spacing: 2px;
+}
+.user i {
+	font-style: normal;
+	color: #fff;
+	font-size: 14px;
+}
+
+/* 页面底部 */
+footer {
+	height: 104px;
+	background-color: rgba(0, 0, 0, .2);
+}
+.service {
+	padding: 30px 0;
+	overflow: hidden;
+}
+.service ul li {
+	width: 396px;
+	line-height: 43px;
+	position: relative;
+	float: left;
+}
+.service li h5 {
+	position: absolute;
+	top: 0;
+	left: 100px;
+	width: 36px;
+	height: 42px;
+	background: url(../images/ico-footer.png) no-repeat;
+	background-position: 0 -192px;
+	text-indent: -999em;
+}
+.service li:nth-child(2) h5 {
+	background-position: -41px -192px;
+}
+.service li:nth-child(3) h5 {
+	background-position: -82px -192px;
+}
+.service li:nth-child(4) h5 {
+	background-position: -123px -192px;
+}
+.service li p {
+	font-weight: 700;
+	margin-left: 150px;
+	color: #fff;
+}
